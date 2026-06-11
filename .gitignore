@@ -1,0 +1,26 @@
+# ---- Compiled binaries / build output ----
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Test binary, built with `go test -c`
+*.test
+# Output of `go build` / coverage
+*.out
+*.prof
+/cmd/makcu/makcu
+
+# ---- Go workspace ----
+go.work
+go.work.sum
+
+# ---- JetBrains / GoLand IDE ----
+.idea/
+
+# ---- Claude Code session state ----
+.remember/
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
